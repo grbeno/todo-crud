@@ -1,0 +1,38 @@
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.update-button {
+    background-color: #448d44;
+    color: white;
+    cursor: pointer;
+}
+.update-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    background-color: #b72a2a;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo {
+    border-style: solid;
+    border-width: medium;
+    padding: 1%;
+    margin-bottom: 5%;
+}
